@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f0f2f5; /* Fundo cinza suave */
+    height: 100vh;
+}
+
+/* --- Estilo do Pop-up (Toast) --- */
+.subscribe-card {
+    position: fixed;
+    bottom: 30px; /* Distância do fundo */
+    right: 30px;  /* Distância da direita */
+    background: white;
+    width: 400px; /* Largura proporcional à imagem */
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.15); /* Sombra suave para flutuar */
+    transition: all 0.3s ease-in-out;
+    z-index: 999;
+}
+
+/* Botão de Fechar (×) */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    color: #999;
+    cursor: pointer;
+    line-height: 1;
+}
+
+.close-btn:hover {
+    color: #333;
+}
+
+.card-body {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Espaço entre logo e texto */
+}
+
+/* --- RECRIAÇÃO DA LOGOMARCA (Fidelidade Máxima) --- */
+.logo-container {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    /* O gradiente cônico idêntico ao da imagem */
+    background: conic-gradient(
+        #fc01f6 0%,   /* Rosa vibrante */
+        #ff02b5 30%,  /* Rosa mais suave */
+        #00c3ff 70%,  /* Azul claro */
+        #fc01f6 100%  /* Rosa vibrante de volta */
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px; /* Padding interno */
+}
+
+.logo-background {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: white; /* Centro branco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cl-logo-svg text {
+    fill: #2c3e50; /* Cor escura do texto 'CL' */
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* --- Texto do Card --- */
+.card-text h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 3px;
+    color: #2c3e50;
+}
+
+.card-text p {
+    font-size: 14px;
+    color: #777; /* Cinza suave */
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+/* --- O Botão de Inscrição (Azul) --- */
+.sub-btn {
+    background: #00e0ff; /* Azul ciano vibrante da imagem */
+    color: white;
+    border: none;
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.sub-btn:hover {
+    background: #00c9e6; /* Azul mais escuro no hover */
+}
