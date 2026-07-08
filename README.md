@@ -2,22 +2,22 @@
 
 Um projeto simples de **botão de inscrição com toast notification** usando apenas HTML e CSS.
 
-## ✨ Sobre
+## Sobre
 
 Este projeto demonstra como criar um **subscribe button interativo**, com uma **notificação estilo toast**, ideal para sites modernos.
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - HTML
 - CSS
 
-## 🎯 Funcionalidades
+## Funcionalidades
 
 - Botão de inscrição (subscribe)
 - Notificação estilo toast
 - Design simples e moderno
 
-## 🚀 Como usar
+## Como usar
 
 1. Baixe ou clone o repositório  
 2. Abra o arquivo `index.html` no navegador 
